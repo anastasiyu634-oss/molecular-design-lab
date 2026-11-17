@@ -1,0 +1,11 @@
+Molecular Design Lab v4.9.4: исправление OpenMM
+
+1. Остановите Streamlit (Ctrl+C в терминале VS Code).
+2. Замените receptor_geometry.py в корне установленного проекта v4.9.3.
+3. Не удаляйте .venv и bin/vina.exe.
+4. Запуск: .\.venv\Scripts\python.exe -m streamlit run app.py
+5. Повторите докинг 1A52. Если он не запустится, скопируйте новую ошибку PDBFixer/Meeko.
+
+Изменение: createSystem(..., constraints=None, rigidWater=False), нулевая масса
+фиксированных тяжёлых атомов остаётся; проверки качества сохранены.
+OpenMM/PDBFixer не тестировались в среде сборки.

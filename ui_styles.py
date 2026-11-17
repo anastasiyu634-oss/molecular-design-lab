@@ -37,7 +37,30 @@ div.stButton > button[kind="secondary"]:hover {border-color:#9FB2A3;color:#30453
 .lab-note {background:#EDF3EA;color:#4D6753;border-radius:12px;padding:14px 16px;line-height:1.5;font-size:.88rem;margin-top:12px;}
 .lab-placeholder {background:#fff;border:1px dashed #C3D1C5;border-radius:14px;padding:22px;color:#627668;}
 .lab-chip {display:inline-block;background:#EAF0E7;padding:5px 9px;color:#45614A;border-radius:6px;font-size:.81rem;font-weight:650;margin-right:6px;}
-.lab-rule {border-top:1px solid var(--lab-line);margin:14px 0;}
+
+.lab-rule {border-top:1px solid var(--lab-line);margin:24px 0;}
+.lab-complex-kicker{font-size:.75rem;font-weight:700;letter-spacing:.08em;color:#6F8675;margin-top:10px}
+.lab-compound-name{font-size:1.21rem;line-height:1.42;font-weight:680;color:#2C4536;overflow-wrap:anywhere;margin:5px 0}
+.lab-card{min-height:105px;}
+.lab-bars{border:1px solid var(--lab-line);border-radius:14px;background:white;padding:14px 20px;}
+.lab-bar-row{display:grid;grid-template-columns:155px 1fr;gap:12px;align-items:center;padding:13px 0;border-bottom:1px solid var(--lab-line)}
+.lab-bar-row:last-child{border-bottom:0}
+.lab-bar-title{font-weight:650;font-size:.87rem;color:#385740;overflow-wrap:anywhere}
+.lab-bar-line{display:grid;grid-template-columns:132px 1fr 30px;gap:10px;align-items:center;margin:5px 0;font-size:.76rem;color:#65776C}
+.lab-bar-line b{color:#3E5546;text-align:right;font-variant-numeric:tabular-nums}
+.lab-bar-track{height:10px;border-radius:10px;background:#F0F2EF;overflow:hidden}
+.lab-bar-fill{height:100%;border-radius:10px}
+.lab-map-scroller{overflow-x:auto;border:1px solid var(--lab-line);border-radius:12px;background:#fff}
+.lab-heat{border-collapse:collapse;width:100%;text-align:center;font-size:.84rem}
+.lab-heat th,.lab-heat td{border-bottom:1px solid #E5E9E3;padding:10px;min-width:80px}
+.lab-heat td{font-weight:800;font-size:1rem}
+.lab-heat thead th{background:#F5F7F4;color:#688071}
+.lab-heat th:first-child{text-align:left;color:#3D5847;font-weight:700}
+.lab-palette{display:flex;flex-wrap:wrap;gap:20px;font-size:.82rem;color:#566C5B;padding:8px 0 12px}
+.lab-palette span{display:flex;align-items:center;gap:7px}
+.lab-palette i{display:inline-block;width:12px;height:12px;border-radius:50%}
+@media(max-width:700px){.lab-bar-row{grid-template-columns:1fr;gap:5px}.lab-bar-line{grid-template-columns:105px 1fr 22px;gap:4px}}
+
 @media (max-width:700px){.block-container{padding-top:1.2rem}.lab-hero{padding:18px}.lab-hero h1{font-size:1.5rem}}
 </style>
 """

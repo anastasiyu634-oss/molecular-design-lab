@@ -1,0 +1,3 @@
+-r requirements-docking.txt
+pdbfixer>=1.11,<2
+prody>=2.4
